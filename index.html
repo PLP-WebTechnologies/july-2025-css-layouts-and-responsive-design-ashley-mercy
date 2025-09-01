@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Responsive Design Demo</h1>
+            <p>Showcasing CSS Grid & Flexbox</p>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Services</a></li>
+                <li><a href="#" class="nav-link">Portfolio</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area with Grid -->
+        <div class="main-grid">
+            <!-- Content Section -->
+            <main class="content">
+                <h2>Our Services</h2>
+                <p>We offer a variety of services to meet your needs:</p>
+                
+                <!-- Cards using Flexbox -->
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-icon">🎨</div>
+                        <h3>Web Design</h3>
+                        <p>Beautiful, modern designs tailored to your brand.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">💻</div>
+                        <h3>Development</h3>
+                        <p>Clean, efficient code for optimal performance.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Flawless experience across all devices.</p>
+                    </div>
+                </div>
+                
+                <div class="article">
+                    <h3>Latest Article</h3>
+                    <p>The Future of Responsive Web Design
+By Alex Johnson October 15, 2023
+As we move deeper into the mobile-first era, responsive design continues to evolve. Modern web development requires not only fluid layouts but also adaptive content strategies that consider device capabilities, network conditions, and user contexts.
+
+The latest trends show a shift towards component-based architectures where UI elements independently adjust to different screen sizes. Combined with CSS Grid and Flexbox, developers can create truly adaptive experiences that maintain visual hierarchy across all devices.</p>
+                    <button>Read More</button>
+                </div>
+            </main>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">SEO</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates</p>
+                    <input type="email" placeholder="Your email">
+                    <button>Subscribe</button>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2023 Responsive Design Demo. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
